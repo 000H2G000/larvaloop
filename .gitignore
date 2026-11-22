@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+!.env.example
+secrets.h
+
+# Dependencies / builds
+node_modules/
+.next/
+.venv/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+next-env.d.ts
+
+# Runtime data (never commit: user uploads, datasets, generated prints, models)
+backend/uploads/
+vision/data/
+vision/prints/
+vision/models/*.pt
+logs/
+*.log
+.DS_Store

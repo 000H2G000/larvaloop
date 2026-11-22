@@ -1,0 +1,8 @@
+.venv/
+.env
+data/
+runs/
+models/*.pt
+prints/
+__pycache__/
+*.pyc
